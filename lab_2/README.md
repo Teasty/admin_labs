@@ -211,21 +211,3 @@ vgs
 23. Финальный аккорд
 ![alt-текст](https://github.com/Teasty/admin_labs/blob/master/lab_2/screenshots_task_3/VirtualBox_Клон_3.8_pojiloi_raid_clone_23_05_2019_10_05_54.png)
 ![alt-текст](https://github.com/Teasty/admin_labs/blob/master/lab_2/screenshots_task_3/VirtualBox_Клон_3.8_pojiloi_raid_clone_23_05_2019_10_06_24.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
