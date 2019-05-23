@@ -5,19 +5,19 @@
 * 1 cpu
 * 2 hdd (назвав их ssd1, ssd2 и назначил равный размер, поставив галочки hot swap и ssd)
 * SATA контроллер настроен на 4 порта
-![alt-текст](../screenshots_task_1/Screenshot_1.png)
+![alt-текст](https://github.com/Teasty/admin_labs/tree/master/lab_2/screenshots_task_1/Screenshot_1.png)
 2. Начало установки Linux:
 ![alt-текст](https://github.com/Kindface/Linux-labs/blob/master/lab2/images/VirtualBox_Raid_26_03_2019_16_55_33.png)
 * Настройка отдельного раздела под /boot: Выбрав первый диск, создал на нем новую таблицу разделов
 + Partition size: 512M
 + Mount point: /boot
 + Повторил настройки для второго диска, выбрав mount point:none
-![alt-текст](../screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_10_53_27.png)
+![alt-текст](https://github.com/Teasty/admin_labs/tree/master/lab_2/screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_10_53_27.png)
 * Настройка RAID
 + Выбрал свободное место на первом диске и настроил в качестве типа раздела physical volume for RAID
 + Выбрал "Done setting up the partition"
 + Повторил настройку для второго диска
-![alt-текст](../screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_01_28.png)
+![alt-текст](https://github.com/Teasty/admin_labs/tree/master/lab_2/screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_01_28.png)
 * Выбрал пункт "Configure software RAID"
 + Create MD device
 + Software RAID device type: Выберал зеркальный массив
@@ -26,7 +26,7 @@
 + Active devices for the RAID XX array: Выбрал разделы, которые создавал под raid
 + Finish
 * В итоге получил: 
-![alt-текст](../screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_02_11.png)
+![alt-текст](https://github.com/Teasty/admin_labs/tree/master/lab_2/screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_02_11.png)
 * Настройка LVM: Выбрал Configure the Logical Volume Manager
 + Keep current partition layout and configure LVM: Yes
 + Create volume group
@@ -42,7 +42,7 @@
 + logical volume name: log
 + logical volume size: 1\5 от размера диска
 + Завершив настройку LVM увидел следующее:
-![alt-текст](../screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_16_33.png)
+![alt-текст](https://github.com/Teasty/admin_labs/tree/master/lab_2/screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_16_33.png)
 * Разметка разделов: по-очереди выбрал каждый созданный в LVM том и разметил их, например, для root так:
 + Use as: ext4
 + mount point: /
