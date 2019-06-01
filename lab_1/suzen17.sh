@@ -1,6 +1,6 @@
 
 #!/bin/bash
-ls -all
+ls --all
 
 
 
