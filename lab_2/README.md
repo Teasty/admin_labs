@@ -56,7 +56,6 @@
 * Результат команд fdisk -l и lsblk:
 + sda - ssd1
 + sdb -ssd2
-![alt-текст](https://github.com/Teasty/admin_labs/blob/master/lab_2/screenshots_task_1/VirtualBox_pojiloi_raid_06_04_2019_11_16_38.png)
 * Посмотрел информацию о текущем raid командой cat /proc/mdstat (не было своего скриншота):
 ![alt-текст](https://raw.githubusercontent.com/Kindface/Linux-labs/master/lab2/images/VirtualBox_Raid_26_03_2019_17_35_39.png)
 Увидел, что активны два raid1 sda2[0] и sdb2[1]
